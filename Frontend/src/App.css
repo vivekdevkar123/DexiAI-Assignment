@@ -1,0 +1,122 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Form Container */
+.form-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  cursor: pointer;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #45a049;
+}
+
+.search-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Texts */
+.loading-text {
+  text-align: center;
+  color: #888;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+.job-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.job-table th,
+.job-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.job-table th {
+  background-color: #333;
+  color: white;
+  font-size: 18px;
+}
+
+.job-table td {
+  background-color: #fff;
+  color: #555;
+}
+
+.job-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Links */
+.company-link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.company-link:hover {
+  text-decoration: underline;
+}
+
+.company-slogan {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+}
+
+.job-link {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.job-link:hover {
+  text-decoration: underline;
+}
