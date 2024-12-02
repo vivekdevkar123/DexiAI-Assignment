@@ -44,15 +44,6 @@ Install the required Python packages using `pip`:
 pip install -r requirements.txt
 ```
 
-Make sure the `requirements.txt` file contains the following dependencies:
-
-```txt
-Flask
-Flask-Cors
-requests
-beautifulsoup4
-```
-
 #### c. Run the Flask server
 
 Once the dependencies are installed, run the Flask backend:
@@ -110,6 +101,7 @@ DexiAI-Assignment/
 ├── Backend/              # Backend directory containing the Flask API
 │   ├── app.py            # Flask API for scraping job data
 │   ├── requirements.txt  # Backend dependencies
+│   ├── scraper.py        # web scraping logic
 │
 └── Frontend/             # Frontend directory containing the React app
     ├── src/
@@ -121,9 +113,11 @@ DexiAI-Assignment/
 
 ## Additional Notes
 
-- Make sure that both the frontend and backend are running on different ports to avoid conflicts. React runs by default on `http://localhost:3000/` and Flask on `http://127.0.0.1:5000/`.
-- The backend scraping logic uses BeautifulSoup and requests to scrape job listings. You can modify the backend to include other scraping sources as needed.
+- Make sure that both the frontend and backend are running on different ports to avoid conflicts. React runs by default on `http://localhost:3000/` and Flask on `http://127.0.0.1:5000/
 
-## License
+`.
+- The backend scraping logic uses lxml and requests to scrape job listings.
 
-This project is licensed under the MIT License.
+## Demo Video
+
+https://github.com/user-attachments/assets/3666156b-158a-4fd8-9fbd-82a15d2531aa
